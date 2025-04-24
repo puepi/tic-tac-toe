@@ -24,7 +24,7 @@ export default function GameBoard({ onSelectSquare, turns }) {
         onSelectSquare()
 
     } */
-    const gameBoardElt = gaemeBoard.map((row, rowIndex) => {
+    const gameBoardElt = initialGameBoard.map((row, rowIndex) => {
         return <li key={rowIndex}>
             <ol>
                 {row.map((playerSymbol, colIndex) => {
